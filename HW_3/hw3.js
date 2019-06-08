@@ -40,18 +40,7 @@ let clickHandler = function(event,) {
               
   
   }
-  // if (document.getElementById("width").value !== null) {
-  //   newFigure.style.width=document.getElementById("width").value + 'px';
-  // }
-  // if (document.getElementById("height").value !== null) {
-  //   newFigure.style.height=document.getElementById("height").value + 'px';
-  // }
-  // else {
-  //   newFigure.style.height=document.getElementById("width").value + 'px';
-  // }
-  // if (isRadiusExists) {
-  //   newFigure.style.radius='50%';
-  // }
+
   document.querySelector("#"+this.id).appendChild(newFigure);
   console.log(newFigure);
   
@@ -74,14 +63,12 @@ for(let i=0; i<form1.length; i++ ){
       case 'Square':
           document.getElementById("width").style.display="inline";
           document.getElementById("height").style.display="none";
-          // document.getElementById("height").value=null;
           isRadiusExists=false;
           figureType=this.value;
         break;
       case 'Circle':
           document.getElementById("width").style.display="inline";
           document.getElementById("height").style.display="none";
-          // document.getElementById("height").value=null;
           isRadiusExists=true;
           figureType=this.value;
         break;
