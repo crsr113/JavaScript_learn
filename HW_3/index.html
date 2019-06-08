@@ -42,8 +42,8 @@
 
   .figure1 {
     
-    width: 20px;
-    height: 20px;
+    /* width: 20px;
+    height: 30px; */
     /* background-color: #000; */
     /* border-radius: 50%; */
     position: absolute;
@@ -61,11 +61,11 @@
           <label for="figureChoice1">Circle</label>
       
           <input type="radio" id="figureChoice2"
-           name="figure" value="Square" checked>
+           name="figure" value="Square">
           <label for="figureChoice2">Square</label>
       
           <input type="radio" id="figureChoice3"
-           name="figure" value="Rectangle">
+           name="figure" value="Rectangle" checked>
           <label for="figureChoice3">Rectangle</label>
 
           <input type="radio" id="figureChoice4"
@@ -77,8 +77,8 @@
 
     <form id="form_lengths" name="form_lengths">
         Colour: <input type="color" id="colorInp1" style="display: inline">
-        Width: <input type="text" id="width" name="length" maxlength="2" size="2" style="display: inline">
-        Height:<input type="text" id="height" name="length" maxlength="2" size="2" style="display: inline">
+        Width: <input type="text" id="width" name="length" maxlength="2" size="2" style="display: inline" value=20>
+        Height:<input type="text" id="height" name="length" maxlength="2" size="2" style="display: inline" value=30>
         <!-- Radius:<input type="text" id="radius" name="length" maxlength="2" size="2" style="display: inline"> -->
         <!-- <label for="width">width</label> -->
     </form>  
