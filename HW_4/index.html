@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HomeWork 3</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(208, 255, 0);
+  }
+
+  .area {
+    /* display: inline-block; */
+    width: 300px;
+    height: 300px;
+    border: 4px solid red;
+    margin: 10PX;
+    position: relative;
+  }
+
+  .area1 {
+    /* width: inherit; */
+    /* float: left; */
+     /* position: relative;  */
+     height: 200px;
+  }
+
+  .area2 {
+     /* position: relative;  */
+     /* float: right; */
+     height: 500px;
+  }
+
+  .figure1 {
+    
+    /* width: 20px;
+    height: 30px; */
+    /* background-color: #000; */
+    /* border-radius: 50%; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+
+  </style>
+<body>
+  <div id="area" class="area_parent">
+    <form id="form1" name="form1">
+        <div>
+          <input type="radio" id="figureChoice1"
+           name="figure" value="Circle">
+          <label for="figureChoice1">Circle</label>
+      
+          <input type="radio" id="figureChoice2"
+           name="figure" value="Square">
+          <label for="figureChoice2">Square</label>
+      
+          <input type="radio" id="figureChoice3"
+           name="figure" value="Rectangle" checked>
+          <label for="figureChoice3">Rectangle</label>
+
+          <input type="radio" id="figureChoice4"
+          name="figure" value="Oval">
+         <label for="figureChoice4">Oval</label>
+
+        </div>
+      </form>
+
+    <form id="form_lengths" name="form_lengths">
+        Colour: <input type="color" id="colorInp1" style="display: inline">
+        Width: <input type="text" id="width" name="length" maxlength="2" size="2" style="display: inline" value=20>
+        Height:<input type="text" id="height" name="length" maxlength="2" size="2" style="display: inline" value=30>
+    </form>  
+
+    
+    <div id="area1" class="area"></div>
+    
+    <div id="area2" class="area"></div>
+  </div>
+  <script src="hw3.js"></script>
+</body>
+</html>
+
