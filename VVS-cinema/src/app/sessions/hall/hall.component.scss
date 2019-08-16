@@ -1,0 +1,46 @@
+.hall {
+    margin-top: 50px;
+    &__row {
+      display: flex;
+      justify-content: left;
+      margin-bottom: 10px;
+      align-items: center;
+      &-seats {
+        display: flex;
+      }
+    }
+    &__seat {
+      text-align: center;
+      width: 28px;
+      height: 28px;
+      line-height: 10px;
+      background-color: #000;
+      color: #fff;
+      margin: 1.6px;
+      cursor: pointer;
+      &--isBlank {
+        background-color: transparent;
+      }
+      &--isBooked {
+        background-color: #5f5d5d;
+      }
+      &--isBookedByMe {
+        background-color: #1fa01f;
+      }
+    }
+  }
+
+  .session__time {
+    color: #ffea73;
+    font-size: 16px
+  }
+
+  .hall__row-number {
+    color: #727374;
+    font-size: 13px;
+    margin-right: 4px
+  }
+
+  .seat__number {
+    color: grey;
+  }

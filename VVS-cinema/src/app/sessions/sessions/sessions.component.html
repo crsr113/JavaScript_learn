@@ -1,0 +1,17 @@
+<button class="home-button" [routerLink]="['']">На главную</button >
+    <ul class="sessions-page">
+            <div *ngIf="filmId"> 
+              <div class="title">
+                  <h1>
+                      {{filmName}}
+                  </h1>
+              </div>
+            </div>
+            <div *ngIf="sessions">
+                <app-hall *ngFor="let sess of sessions" [hallId]="sess.hall_id" [sesstime]="sess.dtime" [sess_id]="sess.id"></app-hall>
+                <!-- <li *ngFor="let sess of sessions">
+                    <div>{{sess.dtime}}</div>
+                </li> -->
+            </div>
+          </ul>
+<app-order></app-order>

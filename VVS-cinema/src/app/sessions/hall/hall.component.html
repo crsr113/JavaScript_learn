@@ -1,0 +1,14 @@
+<div class="hall" *ngIf='hall_show'>
+    <div class="session__time">{{hall.desc}} ({{hall.tech}})  /  {{session_time}}</div>
+    <div class="hall__row" *ngFor="let row of hall_show.rows">
+          <div class="hall__row-number">{{row.rownum}}</div>
+          <div class="hall__row-seats">
+            <div (click)="toggleSelection(seat, sess_id, row.seats)" class="hall__seat" *ngFor="let seat of row.seats"
+              [class.hall__seat--isBlank]="seat.isBlank"  
+              [class.hall__seat--isBooked]="seat.isBooked" 
+              [class.hall__seat--isBookedByMe]="seat.isBookedByMe">
+              <p class="seat__number">{{seat.number}}</p>
+            </div>
+          </div>
+        </div>
+</div>

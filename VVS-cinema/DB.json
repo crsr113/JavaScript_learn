@@ -1,0 +1,1322 @@
+{
+  "film": 
+[
+  {
+    "id": 0,
+    "name": "Воно",
+    "desc": "В маленьком городке Дерри в штате Мэн семеро детей, известных как «Клуб неудачников», сталкиваются с чудовищем, способным принимать форму клоуна по имени Пеннивайз.",
+    "posterurl": "https://multiplex.ua/images/95/e1/95e1eac02bd6d60fc2daf46e56fbd760.jpg",
+    "postersmallurl": "https://multiplex.ua/images/87/af/87af20d5492a7c34c1d69c0d34ec51a8.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "Джокер",
+    "desc": "«Джокер» расскажет историю о культовом антигерое, которую еще не видели на большом экране.  Фильм станет одновременно и настоящим исследованием персонажа Артура Флека (Джокера, Хоакин Феникс), человека, которого отвергло общество, и поучительной историей.",
+    "posterurl": "https://multiplex.ua/images/84/63/8463a3153ff298060f8a4ae1ef7a08e3.jpeg",
+    "postersmallurl": "https://multiplex.ua/images/79/ba/79ba3cdabc951ab23d4d6256240894fb.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "До зірок",
+    "desc": "Астронавт Рой МакБрайд (Брэд Питт) путешествует  в отдаленных уголков солнечной галактики, чтобы найти своего пропавшего отца и разгадать тайну, которая угрожает существованию нашей планеты.  Во время этого путешествия Рой раскроет секреты, которые бросают вызов природе человеческого существования и нашем месте во Вселенной.",
+    "posterurl": "https://multiplex.ua/images/27/85/2785c1b82047d7f4172cf4550e25b59e.jpeg",
+    "postersmallurl": "https://multiplex.ua/images/37/73/37735db96275e4b5ac29e98448ffd504.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Однажды в... Голливуде",
+    "desc": "Квентин Тарантино собирает звездный каст и приглашает в неудержимый и блестящий Лос-Анджелес 60-х!  Молодой актер правдами и неправдами пытается найти свое место в Голливуде, в это время в городе происходит ряд шокирующих событий.",
+    "posterurl": "https://multiplex.ua/images/01/4f/014f1f6f4cf53fc3bf81b0bcff05af07.jpeg",
+    "postersmallurl": "https://multiplex.ua/images/0b/f1/0bf173f142efc02e3184ba08572e7339.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Терминатор: Фатум",
+    "desc": "Нас ждет продолжение сюжета Терминатор 2: Судный день.",
+    "posterurl": "https://multiplex.ua/images/7d/e2/7de22722ed38b6f35eeeab9c3e3b8d27.jpeg",
+    "postersmallurl": "https://multiplex.ua/images/d8/e9/d8e9bdc990b4bc84c8adbdd93b3770c2.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Колдунья: Владычица тьмы",
+    "desc": "Потрясающая фэнтези-история продолжится! После того, как Колдунья наложила заклятье на королеву Аврору, жизнь магического леса и его фантастических жителей изменилось навсегда. Чтобы выстоять в борьбе против тьмы, молодая правительница должна найти мощных союзников - иначе ее мир исчезнет.",
+    "posterurl": "https://multiplex.ua/images/97/b4/97b40994eb7545899805f933b1ebe871.jpeg",
+    "postersmallurl": "https://multiplex.ua/images/7b/72/7b72baa4c4ecde39b54db2f86bc765c9.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "TEST",
+    "desc": "TEST TEST TEST ",
+    "posterurl": "",
+    "postersmallurl": ""
+  },
+  {
+    "id": 7,
+    "name": "TEST 2",
+    "desc": "TEST TEST TEST ",
+    "posterurl": "",
+    "postersmallurl": ""
+  }
+],
+  "hall": 
+[
+  {
+    "id": 1,
+    "name": "Hall_1",
+    "desc": "Hall 1",
+    "tech": "2D"
+  },
+  {
+    "id": 2,
+    "name": "Hall_2",
+    "desc": "Hall 2",
+    "tech": "IMAX"
+  },
+  {
+    "id": 3,
+    "name": "Hall_3",
+    "desc": "Hall 3",
+    "tech": "Cinetech"
+  }
+],
+  "seat": 
+[
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 1,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 2,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 3,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 4,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   }, 
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 1,
+      "Row_Num": 5,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   }, 
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 1,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 2,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 3,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 4,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 2,
+      "Row_Num": 5,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 1,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 2,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 0,
+      "isVip": false,
+      "Double": "",
+      "isBlank": true
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 3,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 4,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": false,
+      "Double": "",
+      "isBlank": false
+   }, 
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 5,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": true,
+      "Double": "",
+      "isBlank": false
+   }, 
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 1,
+      "Seat_Num_Display": 1,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 2,
+      "Seat_Num_Display": 2,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 3,
+      "Seat_Num_Display": 3,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 4,
+      "Seat_Num_Display": 4,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 5,
+      "Seat_Num_Display": 5,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 6,
+      "Seat_Num_Display": 6,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 7,
+      "Seat_Num_Display": 7,
+      "isVip": true,
+      "Double": "L",
+      "isBlank": false
+   },
+   {
+      "hall_id": 3,
+      "Row_Num": 6,
+      "Seat_Num": 8,
+      "Seat_Num_Display": 8,
+      "isVip": true,
+      "Double": "R",
+      "isBlank": false
+   }
+],
+"session":
+[
+  {
+    "id": 1,
+    "film_id": 1,
+    "hall_id": 1,
+    "price": 100,
+    "dtime": "Fri Aug 16 2019 16:00:00 GMT+0300",
+    "vipbonus": 0.25
+  },
+  {
+    "id": 2,
+    "film_id": 1,
+    "hall_id": 1,
+    "price": 120,
+    "dtime": "Fri Aug 16 2019 20:00:00 GMT+0300",
+    "vipbonus": 0.25
+  },
+  {
+    "id": 3,
+    "film_id": 1,
+    "hall_id": 1,
+    "price": 100,
+    "dtime": "Fri Aug 16 2019 23:00:00 GMT+0300",
+    "vipbonus": 0.25
+  },
+  {
+    "id": 4,
+    "film_id": 2,
+    "hall_id": 2,
+    "price": 130,
+    "dtime": "Fri Aug 16 2019 16:30:00 GMT+0300",
+    "vipbonus": 0.25
+  },
+  {
+    "id": 5,
+    "film_id": 2,
+    "hall_id": 2,
+    "price": 150,
+    "dtime": "Fri Aug 16 2019 20:30:00 GMT+0300",
+    "vipbonus": 0.25
+  },
+  {
+    "id": 6,
+    "film_id": 0,
+    "hall_id": 3,
+    "price": 80,
+    "dtime": "Sat Aug 17 2019 11:20:00 GMT+0300",
+    "vipbonus": 0.2
+  }
+
+],
+"booked_seats":
+[
+   {
+     "session_id": 1,
+     "Row_Num": 2,
+     "Seat_Num": 3
+  },
+   {
+     "session_id": 1,
+     "Row_Num": 2,
+     "Seat_Num": 4
+  },
+   {
+     "session_id": 1,
+     "Row_Num": 3,
+     "Seat_Num": 4
+  },
+   {
+     "session_id": 2,
+     "Row_Num": 1,
+     "Seat_Num": 2
+  },
+   {
+     "session_id": 2,
+     "Row_Num": 2,
+     "Seat_Num": 4
+  },
+   {
+     "session_id": 2,
+     "Row_Num": 5,
+     "Seat_Num": 6
+  }          
+]
+}

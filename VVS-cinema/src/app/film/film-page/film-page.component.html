@@ -1,0 +1,18 @@
+<button class="home-button" [routerLink]="['']">На главную</button>
+<ul class="film-page">
+  <div *ngIf="currentFilm"> 
+    <div class="column1">
+      <img class="poster" [src]=currentFilm.postersmallurl >
+      <button class="tickets" [routerLink]="['./sessions']" [queryParams]="{id: currentFilm.id, name: currentFilm.name}">Купить билеты</button>
+    </div>
+    <div class="column2">
+        <h1>
+            {{currentFilm.name}}
+        </h1>
+        <div class="description">
+            {{currentFilm.desc}}
+        </div>
+    </div>
+  </div>
+</ul>
+<app-order></app-order>

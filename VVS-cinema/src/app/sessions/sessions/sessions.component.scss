@@ -1,0 +1,22 @@
+button.home-button {
+    background-color: #e7e7e7; 
+    color: black;
+    border: 2pt;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    // position: absolute;
+}
+
+.title {
+    font-size: 42px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-top: 56px;
+    // position: relative;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

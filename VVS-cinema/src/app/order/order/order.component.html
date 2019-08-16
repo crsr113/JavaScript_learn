@@ -1,0 +1,9 @@
+<h5 class="order">Ваш заказ {{totalSumm}}
+    <div class="order-data" *ngFor="let ord of orders">
+        <p class="title" >{{ord.Film_name}}  ({{ord.time}}) </p>
+        <a *ngIf="ord.isVip"> VIP мест: {{ord.seat_count}} </a>
+        <a *ngIf="!ord.isVip"> Мест: {{ord.seat_count}} </a>
+        <p> Цена: {{ord.price}} </p>
+    </div>
+    <button class="order_button"> Заказать </button>
+</h5>

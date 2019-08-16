@@ -1,0 +1,21 @@
+<div class="films-carousel">
+  <div class="films__list">
+    <ngb-carousel *ngIf="films">
+      <div *ngFor="let flm of films"> 
+        <h3>{{flm.name}}</h3>
+          <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+              <img [src]=flm.posterurl alt="Random first slide">
+            </div>
+            <div class="carousel-caption">
+              <a class="title" routerLink="/film/{{flm.id}}">{{flm.name}}</a>
+            </div>
+          </ng-template>
+      </div>
+    </ngb-carousel>
+    <app-order></app-order>
+  </div>
+</div>
+
+
+

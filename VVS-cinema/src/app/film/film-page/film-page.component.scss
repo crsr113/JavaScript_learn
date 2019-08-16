@@ -1,0 +1,64 @@
+button.home-button {
+    background-color: #e7e7e7; 
+    color: black;
+    border: 2pt;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    // position: absolute;
+}
+
+.column1 {
+    width: 250px;
+    margin-right: 44px;
+    position: fixed;
+    top: 120px;
+    left: 40px;
+    z-index: 2;
+}
+
+.column1 .poster {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.column1 .tickets {
+    width: 250px;
+    margin-right: 44px;
+    position: sticky; 
+    top: 120px;
+    left: 40px;
+    z-index: 2;
+}
+
+.column2 {
+    width: calc(100% - 640px);
+    margin-right: 40px;
+    // position: relative;
+    margin-left: 305px;
+    top: 76px;
+}
+
+
+
+.column2 h1 {
+    font-size: 42px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-top: 76px;
+    // position: relative;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.column2 .description {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 80;
+    margin-bottom: 28px;
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
