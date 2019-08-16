@@ -76,10 +76,10 @@ export class OrderComponent implements OnInit {
     //  console.log(selected_data_group);
      
       await selected_data_group.forEach(async f => {
-      let Tsession = await this.sessionService.getSession(f.session_id);
+      const Tsession: Session = await this.sessionService.getSession(f.session_id);
       // console.log(Tsession);
       
-      let Tfilm = await this.filmService.getFilm(Tsession.film_id);
+      const Tfilm: Film = await this.filmService.getFilm(Tsession.film_id);
       // console.log(Tfilm);
       
       const tmp_date = await this.dataPipe.transform(Tsession.dtime, 'dd-MM-yyyy HH:mm') 

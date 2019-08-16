@@ -1,3 +1,4 @@
+<div class="order_panel">
 <h5 class="order">Ваш заказ 
     <!-- {{totalSumm}} -->
     <div class="order-data" *ngFor="let ord of orders">
@@ -6,5 +7,6 @@
         <div *ngIf="!ord.isVip"> Мест: {{ord.seat_count}} </div>
         <p> Цена: {{ord.price}} </p>
     </div>
-    <button class="order_button"> Заказать </button>
+    <button class="order_button" *ngIf="orders.length>0"> Заказать </button>
 </h5>
+</div>
