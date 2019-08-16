@@ -1241,7 +1241,7 @@
     "film_id": 1,
     "hall_id": 1,
     "price": 100,
-    "dtime": "Fri Aug 16 2019 16:00:00 GMT+0300",
+    "dtime": "Mon Aug 19 2019 16:00:00 GMT+0300",
     "vipbonus": 0.25
   },
   {
@@ -1249,7 +1249,7 @@
     "film_id": 1,
     "hall_id": 1,
     "price": 120,
-    "dtime": "Fri Aug 16 2019 20:00:00 GMT+0300",
+    "dtime": "Mon Aug 19 2019 20:00:00 GMT+0300",
     "vipbonus": 0.25
   },
   {
@@ -1257,7 +1257,7 @@
     "film_id": 1,
     "hall_id": 1,
     "price": 100,
-    "dtime": "Fri Aug 16 2019 23:00:00 GMT+0300",
+    "dtime": "Mon Aug 19 2019 23:00:00 GMT+0300",
     "vipbonus": 0.25
   },
   {
@@ -1265,7 +1265,7 @@
     "film_id": 2,
     "hall_id": 2,
     "price": 130,
-    "dtime": "Fri Aug 16 2019 16:30:00 GMT+0300",
+    "dtime": "Two Aug 20 2019 16:30:00 GMT+0300",
     "vipbonus": 0.25
   },
   {
@@ -1282,6 +1282,14 @@
     "hall_id": 3,
     "price": 80,
     "dtime": "Sat Aug 17 2019 11:20:00 GMT+0300",
+    "vipbonus": 0.2
+  },
+  {
+    "id": 7,
+    "film_id": 0,
+    "hall_id": 2,
+    "price": 80,
+    "dtime": "Sun Aug 18 2019 11:20:00 GMT+0300",
     "vipbonus": 0.2
   }
 
@@ -1317,6 +1325,16 @@
      "session_id": 2,
      "Row_Num": 5,
      "Seat_Num": 6
-  }          
+  },
+  {
+     "session_id": 7,
+     "Row_Num": 1,
+     "Seat_Num": 2
+  },
+  {
+     "session_id": 6,
+     "Row_Num": 3,
+     "Seat_Num": 3
+  }
 ]
 }
