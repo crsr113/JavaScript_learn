@@ -140,9 +140,9 @@ export class HallComponent implements OnInit {
     this.changeSelections(this.selections);
     
       
-    console.log('Hall comp, selection data:');
+    // console.log('Hall comp, selection data:');
     
-    console.log(this.selections.length);
+    // console.log(this.selections.length);
    
   }
   

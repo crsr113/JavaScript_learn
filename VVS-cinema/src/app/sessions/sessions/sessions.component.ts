@@ -25,11 +25,11 @@ export class SessionsComponent implements OnInit {
   await this.activatedRoute.queryParams.subscribe(params => 
           {this.filmId = params.id;
            this.filmName = params.name;});
-           console.log('session comp');
+          //  console.log('session comp');
            
-   await console.log(this.filmId, this.filmName);
+  //  await console.log(this.filmId, this.filmName);
   this.sessions = await this.sessionsService.getActualSessionsByFilm(this.filmId);
-   await console.log(this.sessions);
+  //  await console.log(this.sessions);
   
     
   }

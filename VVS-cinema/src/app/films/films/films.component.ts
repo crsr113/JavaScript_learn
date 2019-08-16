@@ -21,8 +21,8 @@ export class FilmsComponent implements OnInit {
 
   async ngOnInit() {
     this.films = await this.filmsService.getFilms();
-    await console.log('film comp, selection data: ');
-    await console.log(this.selected_data.length);
+    // await console.log('film comp, selection data: ');
+    // await console.log(this.selected_data.length);
     
     
   }

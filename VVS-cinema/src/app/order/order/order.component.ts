@@ -39,8 +39,7 @@ export class OrderComponent implements OnInit {
    }
 
   async ngOnInit() {
-    
-    this.readData();
+    // this.readData();
 
     // console.log('Orders[]:');
     
@@ -49,8 +48,11 @@ export class OrderComponent implements OnInit {
   };
 
   private async readData() {
+    console.log('Order comp. readData() init!');
+    
     // console.log('Order comp, selected data:');
     // console.log(this.selected_data.length);
+    // console.log(this.orders);
     
     this.orders = [];
     let selected_data_group: Selection[] = [];
@@ -58,11 +60,9 @@ export class OrderComponent implements OnInit {
     this.selected_data.forEach(f => {
       let tmp = selected_data_group.filter(fg => {
         if (fg.session_id === f.session_id && fg.isVip === f.isVip) {
-          return true;
-        }
-      })
-  
-      console.log(tmp);
+            return true;
+          }
+        });
       
         if (tmp.length === 0) { selected_data_group = selected_data_group.concat(f); }
     });
@@ -73,26 +73,38 @@ export class OrderComponent implements OnInit {
       
     })
     
-    await selected_data_group.forEach(async f => {
-      this.session = await this.sessionService.getSession(f.session_id);
-      this.film = await this.filmService.getFilm(this.session.film_id);
-      let tmp_date = this.dataPipe.transform(this.session.dtime, 'dd-MM-yyyy HH:mm') //new Date(this.session.dtime).toISOString();
-      // tmp_date = tmp_date.slice(0,10) + ' ' + tmp_date.slice(11,16)
+    //  console.log(selected_data_group);
+     
+      await selected_data_group.forEach(async f => {
+      let Tsession = await this.sessionService.getSession(f.session_id);
+      // console.log(Tsession);
+      
+      let Tfilm = await this.filmService.getFilm(Tsession.film_id);
+      // console.log(Tfilm);
+      
+      const tmp_date = await this.dataPipe.transform(Tsession.dtime, 'dd-MM-yyyy HH:mm') 
       // console.log(tmp_date);
       
-      this.orders = [...this.orders, {
-                                      Film_name: this.film.name,
-                                      Film_id: this.film.id,
-                                      seat_count: f.count,
-                                      price: this.calcPrice(this.session.price, f.isVip, this.session.vipbonus)*f.count,
-                                      isVip: f.isVip,
-                                      time: tmp_date
-                                    
+      this.orders = await [...this.orders, {
+        Film_name: Tfilm.name,
+        Film_id: Tfilm.id,
+        seat_count: f.count,
+        price: this.calcPrice(Tsession.price, f.isVip, Tsession.vipbonus)*f.count,
+        isVip: f.isVip,
+        time: tmp_date
+
       } ]
+      // console.log(this.orders);
           
     });
-    this.totalSum = this.calcTotalPrice();
-  }
+    console.log('Orders comp, orders[]: ');
+    
+    console.log(this.orders);
+    
+    // this.totalSum = await this.calcTotalPrice();
+    // console.log(this.totalSum);
+    
+  };
 
   private calcPrice(price: number, isVip: boolean, vipbonus: number) {
     if (isVip){
@@ -103,7 +115,12 @@ export class OrderComponent implements OnInit {
 
   private calcTotalPrice () {
     let sum: number = 0;
-    this.orders.forEach(f => {sum = sum + + f.price });
+    // console.log(this.orders);
+    
+    this.orders.forEach(f => {//console.log('www');
+     sum = sum + f.price });
+    // console.log('calcTotalPrice: ' + sum);
+    
     return sum;
   }
 

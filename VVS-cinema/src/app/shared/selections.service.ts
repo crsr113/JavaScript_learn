@@ -16,8 +16,8 @@ export class SelectionsService {
 
   changeSelections(sel: Selection[]) {
     this.selections_u.next(sel);
-    console.log('selections shared changed');
+    // console.log('selections shared changed');
     
-    console.log(this.selections_u.observers.values);
+    // console.log(this.selections_u.observers.values);
   }
 }
